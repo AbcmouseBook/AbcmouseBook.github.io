@@ -6,21 +6,15 @@ html, body {
 
 .pageWrapper {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: flex-start;
+    align-content: flex-start;
     background: #1DB2DD;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
 }
-/* 
-img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-} */
 
 .bookcover-wrapper {
-    max-height: 40vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +23,32 @@ img {
 
 .bookcover-wrapper img {
     height: 400px;
+    height: 30vh;
     width: auto;
     margin: 0 auto;
 }
+
+.btn__cta {
+    width: 380px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 80px;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    cursor: pointer;
+    overflow: hidden;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.brand-yellow-btn, .brand-yellow-btn:visited {
+    background: linear-gradient(to bottom,#fff433,#ffe000);
+    color: #000;
+}
+
+.brand-yellow-btn:hover {
+    background: #ffe000;
+    color: rgba(0,0,0,.5);
+}
+
