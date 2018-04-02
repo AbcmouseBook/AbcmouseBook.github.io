@@ -11,12 +11,13 @@
  */
 
 .cp-container {
-	position:relative;
-	width:104px; /* 200 - (2 * 48) */
-	height:104px;
-	/* background:url("bgr.jpg") 0 0 no-repeat; */
-	padding:48px;
-	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	position: relative;
+    width: 104px;
+    height: 104px;
+    /* background: url(bgr.jpg) 0 0 no-repeat; */
+    /* padding: 48px; */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    right: -50px;
 }
 
 .cp-container :focus {
