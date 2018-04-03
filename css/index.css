@@ -20,6 +20,9 @@ html, body {
     align-items: center;
 }
 
+header { 
+    margin-bottom: 16px;
+}
 
 .bookcover-wrapper img {
     height: 400px;
